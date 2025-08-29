@@ -8,19 +8,9 @@ function getComputerChoice() {
   return result;
 }
 
-function getHumanChoice() {
-  let input = prompt("enter your choice");
-  let clean_input = input.toLowerCase();
-  if (clean_input === "rock") {
-    return "rock";
-  } else if (clean_input === "paper") {
-    return "paper";
-  } else {
-    return "scissors";
-  }
-}
 
-function playGame() {
+
+  function playGame(){
   let humanScore = 0;
   let computerScore = 0;
   function playRound(humanChoice, computerChoice) {
@@ -46,18 +36,15 @@ function playGame() {
       return lose();
     }
   }
-  for (let i = 0; i < 5; i++) {
-    const humanSelection = getHumanChoice();
+
+   for (let i = 0; i < 5; i++) {
+    const humanSelection = "rock";
     const computerSelection = getComputerChoice();
 
     playRound(humanSelection, computerSelection);
   }
-
-  if (humanScore > computerScore) {
-    console.log("You are the Winner!");
-  } else if (humanScore === computerScore) {
-    console.log("Its a Tiebreaker!");
-  } else {
-    console.log("Your are the Loser!");
-  }
 }
+
+playGame();
+
+    
