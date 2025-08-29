@@ -1,3 +1,7 @@
+
+let humanScore=0;
+let computerScore=0;
+
 function getComputerChoice() {
  const characters =["rock","paper","scissors"];
    let result = ' ';
@@ -19,6 +23,40 @@ function getHumanChoice(){
      return "scissors";
    }
 }
+
+
+function playRound(humanChoice, computerChoice) {
+    function win(){
+        humanScore++;
+        return console.log("You win");
+        
+    }
+    function lose(){
+         computerScore++;
+       return console.log("you Lose");
+       
+    }
+   if(humanChoice==="rock" && computerChoice==="scissors"){
+        return win();
+        
+   }if(humanChoice==="paper" && computerChoice==="rock"){
+        return win();
+        
+   }if(humanChoice==="scissors" && computerChoice==="paper"){
+        return win();
+   }else if(humanChoice===computerChoice){
+    return console.log("Its a Tie!")
+   }
+   else{
+    return lose();
+   }
+}
+
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice();
+
+playRound(humanSelection, computerSelection);
+
 
 
 
