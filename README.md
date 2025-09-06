@@ -1,6 +1,8 @@
 This is a browser console game made with javascript
 
-To play this game you simply need to click on the respective choice buttons and you will able to see the scores in realtime along with winner/loser of each round and an alert after 5 rounds declaring the final winner and resetting the game.
+To play this game you simply need to download the project as zip
+
+after extracting just open the HTML file and start playing by clicking on the respective choice buttons and you will able to see the scores in realtime along with winner/loser of each round and an alert after 5 rounds declaring the final winner and resetting the game.
 
 This project helpmed me solidify my understanding about topics like:
 
