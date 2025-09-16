@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    gap: 15px;
+    background-color: #1a1a1a;
+
+}
+
+.btn{
+    max-width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+  
+}
+
+#rock{
+    background-color: rgba(131, 221, 90, 0.856);
+}
+#paper{
+    background-color: rgb(238, 122, 122);
+    
+}
+#scissors{
+    background-color: orange;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+ol{
+    color: white;
+}
