@@ -1,8 +1,8 @@
-This is a browser console game made with javascript
+This game is made using html,css,javascript.
 
-To play this game you simply need to download the project as zip
+To play this game simply goto the hosted github page and click on relevant option the winner will be announced after 5 rounds.
 
-after extracting just open the HTML file and start playing by clicking on the respective choice buttons and you will able to see the scores in realtime along with winner/loser of each round and an alert after 5 rounds declaring the final winner and resetting the game.
+https://superansh55.github.io/Rock-Paper-Scissors/
 
 This project helpmed me solidify my understanding about topics like:
 
